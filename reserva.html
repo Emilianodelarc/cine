@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/estilo.css">
+		<link rel="stylesheet" href="css/estilo1.css" />
+    	<title>Feli - Nick | Reserva</title>
+  	</head>
+ 	<body>
+		<header class="header">
+			<div class="header__compl">
+				<div class="header__content">
+					<a href="index.html" class="header__logo">
+						<img src="img/logo.gif" alt="">
+					</a>
+					<ul class="header__nav">
+						<li class="header__nav-item">
+							<a class="header__nav-link" href="index.html">Home</a>
+						</li>
+						<li class="header__nav-item">
+							<a class=" header__nav-link" href="#">Catalogo</a>
+						</li>
+						<li class="header__nav-item">
+							<a href="#" class="header__nav-link">Proximos Estrenos</a>
+						</li>
+						<li class="header__nav-item">
+							<a href="#" class="header__nav-link">Ayuda</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<section class="pelicula-container">
+				<label>Elije una pelicula:</label>
+				<select id="pelicula">
+					<option value="100">Classic: $100 </option>
+					<option value="220">Premium: $220 </option>
+					<option value="80">Jubilado (Dto. 20%): $80 </option>
+					<option value="85">Promoción Coder (Dto 15%): $85 </option>
+				</select>
+			</div>
+			<ul class="showcase">
+				<li>
+					<div class="asiento"></div>
+					<small>N/A</small>
+				</li>
+				<li>
+					<div class="asiento seleccionado"></div>
+					<small>seleccionado</small>
+				</li>
+				<li>
+					<div class="asiento ocupado"></div>
+					<small>Ocupado</small>
+				</li>
+			</ul>
+			<div class="container">
+				<div class="screen"></div>
+					<div class="row">
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento ocupado"></div>
+						<div class="asiento ocupado"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+					</div>
+					<div class="row">
+						<div class="asiento ocupado"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento ocupado"></div>
+						<div class="asiento ocupado"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+					</div>
+					<div class="row">
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento ocupado"></div>
+						<div class="asiento ocupado"></div>
+					</div>
+					<div class="row">
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento ocupado"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+					</div>
+					<div class="row">
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento ocupado"></div>
+						<div class="asiento ocupado"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+					</div>
+					<div class="row">
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento"></div>
+						<div class="asiento ocupado"></div>
+						<div class="asiento ocupado"></div>
+						<div class="asiento ocupado"></div>
+						<div class="asiento"></div>
+					</div>
+				</div>
+				<p class="text">
+					Has seleccionado <span id="conteo">0</span> asientos por un precio de $<span id="total">0</span>
+				</p>
+			</div>
+		</section>
+		<section class="ticket__tarjeta">
+			<article class="tarjeta__general">
+				<div class="card tarjeta__izq">
+					<h1>Feli-Nick<span>Cine</span></h1>
+					<div class="titulo">
+						<h2>Retirado de juego</h2>
+						<span>Pelicula</span>
+					</div>
+					<div class="nombre">
+						<h2>Agustin Roletto</h2>
+						<span>Nombre</span>
+					</div>
+					<div class="tarj__asiento">
+						<h2>15A</h2>
+						<span>Asiento</span>
+					</div>
+					<div class="hora">
+						<h2>17:30</h2>
+						<span>Hora</span>
+					</div>
+				</div>
+				<div class="card tarjeta__der">
+					<div class="ojo"></div>
+						<div class="numero">
+							<h3>15A</h3>
+							<span>Asiento</span>
+						</div>
+						<div class="codigoBar"></div>
+					</div>
+				</div>
+			</article>
+			<article class="contenedor">
+				<article class="tarjeta" id="tarjeta">
+					<div class="delantera">
+						<div class="logo-marca" id="logo-marca"> 
+					</div>
+					<img src="img/logotar/chip-tarjeta.png" class="chip" alt="">
+					<div class="datos">
+						<div class="grupo" id="numero">
+							<p class="label">Número Tarjeta</p>
+							<p class="numero">#### #### #### ####</p>
+						</div>
+						<div class="flexbox">
+							<div class="grupo" id="nombre">
+								<p class="label">Nombre Tarjeta</p>
+								<p class="nombre">Coder House</p>
+							</div>
+							<div class="grupo" id="expiracion">
+								<p class="label">Expiración</p>
+								<p class="expiracion"><span class="mes">MM</span> / <span class="year">AA</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="trasera">
+					<div class="barra-magnetica"></div>
+						<div class="datos">
+							<div class="grupo" id="firma">
+								<p class="label">Firma</p>
+								<div class="firma">
+									<p></p>
+								</div>
+							</div>
+							<div class="grupo" id="ccv">
+								<p class="label">CCV</p>
+							<p class="ccv"></p>
+						</div>
+					</div>
+					<p class="leyenda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus exercitationem, voluptates
+					illo.</p>
+					<a href="#" class="link-banco">www.CoderHouse.com</a>
+				</div>
+			</article>
+			<!-- Contenedor Boton Abrir Formulario -->
+			<article class="contenedor-btn">
+				<button class="btn-abrir-formulario" id="btn-abrir-formulario">
+				<i class="fas fa-plus"></i>
+				</button>
+			</article>
+			<!-- Formulario -->
+			<form id="formulario-tarjeta" class="formulario-tarjeta">
+				<div class="grupo">
+					<label for="inputNumero">Número Tarjeta</label>
+					<input type="text" id="inputNumero" maxlength="19" autocomplete="off">
+				</div>
+				<div class="grupo">
+					<label for="inputNombre">Nombre</label>
+					<input type="text" id="inputNombre" maxlength="19" autocomplete="off">
+				</div>
+				<div class="flexbox">
+					<div class="grupo expira">
+						<label for="selectMes">Expiracion</label>
+						<div class="flexbox">
+							<div class="grupo-select">
+								<select name="mes" id="selectMes">
+									<option disabled selected>Mes</option>
+								</select>
+								<i class="fas fa-angle-down"></i>
+							</div>
+							<div class="grupo-select">
+								<select name="year" id="selectYear">
+									<option disabled selected>Año</option>
+								</select>
+								<i class="fas fa-angle-down"></i>
+							</div>
+						</div>
+					</div>
+					<div class="grupo ccv">
+						<label for="inputCCV">CCV</label>
+						<input type="text" id="inputCCV" maxlength="3">
+					</div>
+				</div>
+				<button type="submit" class="btn-enviar">Enviar</button>
+			</form>
+		</section>
+	</body>
+</html>
